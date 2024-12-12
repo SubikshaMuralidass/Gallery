@@ -1,0 +1,24 @@
+# Ignore the virtual environment folder
+env/
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Django migrations
+*.log
+*.pot
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore environment variables file
+*.env
+
+# Ignore static and media files during development
+staticfiles/
+media/
+
+# Ignore IDE settings
+.vscode/
+.idea/
