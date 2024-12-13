@@ -28,10 +28,11 @@ def gallery_grid(request):
         'events': events
     })
 
+
 def event_images(request, event_id):
     event = get_object_or_404(Event, id=event_id)
     images = event.images.all()
-    return render(request, 'gallery/event_images.html', {
+    return render(request, 'event_images.html', {
         'event': event,
         'images': images
     })
