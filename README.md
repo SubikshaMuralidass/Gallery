@@ -74,7 +74,7 @@ For questions or feedback, please contact Subiksha Muralidass at subiksham88@gma
 
 
 ## Project Structure
-
+'''
 Gallery_pics/
 ├── manage.py
 ├── Gallery_pics/                   
@@ -102,3 +102,4 @@ Gallery_pics/
 │   ├── apps.py
 ├── requirements.txt
 └── README.md
+'''
